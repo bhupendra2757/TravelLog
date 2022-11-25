@@ -1,7 +1,14 @@
+import Login from "./components/Auth/Login"
+import Signup from "./components/Auth/Signup";
+import NavBar from "./components/Navbar";
+import RouteLinks from "./components/Route";
+
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!!
-    </h1>
+    <>
+      {/* <NavBar /> */}
+      <RouteLinks />
+    </>
   )
 }
