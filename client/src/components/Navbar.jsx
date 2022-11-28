@@ -1,12 +1,11 @@
 import { useState } from "react";
 import Logo from '../assets/yaad_logo.svg'
-import Login from "./Auth/Login";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full bg-red-900 shadow">
+        <nav className="w-full bg-red-900 shadow ">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:inline-block">
@@ -34,7 +33,7 @@ export default function NavBar() {
                                 <a href="/">Home</a>
                             </li>
                             <li className="text-white hover:text-orange-200">
-                                <a href="/">Blogs</a>
+                                <a href="/blog">Blogs</a>
                             </li>
                             <li className="text-white hover:text-orange-200">
                                 <a href="/">Inspiration</a>

@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '..//components/Navbar'
-import Show from '../components/Show'
+import Blog from '../components/Blog/Card'
 
 function Home() {
   return (
       <>
       <Navbar/>
-      <Show/>
+      {/* <Blog/> */}
       </>
  
  
