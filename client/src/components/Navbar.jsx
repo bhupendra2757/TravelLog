@@ -27,8 +27,8 @@ export default function NavBar() {
                     </div>
                 </div>
                 <div>
-                    <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"}`} >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                    <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0  ${navbar ? "block" : "hidden"}`} >
+                        <ul className="text-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-orange-200">
                                 <a href="/">Home</a>
                             </li>
@@ -40,7 +40,7 @@ export default function NavBar() {
                             </li>
                         </ul>
                         <div className="mt-3 space-y-2 md:hidden">
-                            <a href="/login" className="inline-block w-full px-4 py-2 text-center text-white bg-orange-600 rounded-md shadow hover:bg-orange-800">
+                            <a href="/login" className="inline-block  w-full px-4 py-2 text-center text-white bg-orange-600 transition duration-500 ease-in-out rounded-md shadow hover:bg-orange-800">
                                 Sign in
                             </a>
                             {/* <a href="/signup" className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100" >
@@ -50,7 +50,7 @@ export default function NavBar() {
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:block">
-                    <a href="/login" className="px-4 py-2 text-white bg-orange-600 rounded-md shadow hover:bg-orange-800">
+                    <a href="/login" className="px-4 py-2 text-white bg-orange-600 transition duration-500 ease-in-out rounded-md shadow hover:bg-orange-800">
                         Sign in
                     </a>
                     {/* <a  href="/signup" className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100" >

@@ -12,7 +12,7 @@ export default function Login() {
                 <img src={Traveller} className="w-full h-full object-cover" alt="" />
             </div>
             <div hidden role="hidden" className="fixed inset-0 w-6/12 ml-auto bg-white bg-opacity-70 backdrop-blur-xl lg:block"></div>
-            <div className="relative h-full ml-auto lg:w-6/12">
+            <div className="fixed inset-0 h-full ml-auto lg:w-6/12">
                 <div className="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
                     <div className="space-y-4 flex justify-center ">
                         <img src={Logo} className="pr-10" alt="logo" width='100px' height='100px' />

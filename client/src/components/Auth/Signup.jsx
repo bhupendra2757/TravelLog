@@ -7,8 +7,8 @@ import Traveller from '../../assets/Traveller1.png'
 export default function Signup() {
     return (
         <div className="2xl:container h-screen m-auto">
-            <div hidden role="hidden" className="fixed inset-0 w-7/12 ml-auto bg-white bg-opacity-70 backdrop-blur-xl lg:block"></div>
-            <div className=" h-full mr-auto lg:w-6/12">
+            <div hidden role="hidden" className="fixed inset-0 w-6/12 mr-auto bg-white bg-opacity-70 backdrop-blur-xl lg:block"></div>
+            <div className="fixed inset-0 h-full mr-auto lg:w-6/12">
                 <div className="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
                     <div className="space-y-4 flex justify-center ">
                         <img src={Logo} className="pr-10" alt="logo" width='100px' height='100px' />
@@ -16,7 +16,7 @@ export default function Signup() {
                     </div>
 
                     <div className="mt-12 grid gap-6 sm:grid-cols-2">
-                        <button className="py-3 px-6 rounded-xl bg-blue-50 hover:bg-blue-100 focus:bg-blue-100 active:bg-blue-200">
+                        <button className="py-3 px-6 rounded-xl bg-blue-50 hover:bg-blue-100 focus:bg-blue-100  active:bg-blue-200">
                             <div className="flex gap-4 justify-center">
                                 <img src={Glogo} className="w-5" alt="" />
                                 <span className="block w-max font-medium tracking-wide text-sm text-blue-700">with  Google</span>
