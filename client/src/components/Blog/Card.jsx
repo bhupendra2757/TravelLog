@@ -26,7 +26,7 @@ export default function Card(props) {
                                     </ul>
                                 </div>
                                 <h3 className="text-2xl lg:text-3xl font-bold leading-tight mb-2">
-                                    <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">{props.title} </a>
+                                    <a className="hover:text-orange-700 transition duration-150 ease-in-out" href="#0">{props.title} </a>
                                 </h3>
                             </header>
                             <p className="text-lg text-gray-400 flex-grow">{props.description}.</p>
